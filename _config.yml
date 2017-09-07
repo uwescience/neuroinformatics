@@ -19,13 +19,13 @@ description: > # this means to ignore newlines until "baseurl:"
   Neuroinformatics is an emerging field of research that comprises the use of
   modern data-intensive technologies in neuroscience. Its practice requires
   both broad knowledge of neuroscience as well as substantive competency in
-  data science. The WING is a working group at the University of Washington
-  (UW) eScience Institute and the University of Washington Institute for
-  Neuroengineering (UWIN) that focuses on neuroinformatics methods and their
+  data science. The neuroinformatics working group at the University of
+  Washington (UW) eScience Institute and the University of Washington Institute
+  for Neuroengineering (UWIN) that focuses on neuroinformatics methods and their
   role in understanding the brain.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://uwescience.github.io/neuroinformatics" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/neuroinformatics" # the subpath of your site, e.g. /blog
+url: "https://uwescience.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: uwescience
 github_username:  uwescience
 
