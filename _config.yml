@@ -13,16 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: The UWIN/eScience Working Group in Neuroinformatics
 email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Neuroinformatics is an emerging field of research that comprises the use of
+  modern data-intensive technologies in neuroscience. Its practice requires
+  both broad knowledge of neuroscience as well as substantive competency in
+  data science. The WING is a working group at the University of Washington
+  (UW) eScience Institute and the University of Washington Institute for
+  Neuroengineering (UWIN) that focuses on neuroinformatics methods and their
+  role in understanding the brain.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: uwescience
+github_username:  uwescience
 
 # Build settings
 markdown: kramdown
