@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The UWIN/eScience Working Group in Neuroinformatics
-email: your-email@example.com
+email: neuroinformatics@u.washington.edu
 description: > # this means to ignore newlines until "baseurl:"
   Neuroinformatics is an emerging field of research that comprises the use of
   modern data-intensive technologies in neuroscience. Its practice requires
