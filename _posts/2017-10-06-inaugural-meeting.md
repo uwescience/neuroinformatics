@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Scientific Code Review"
+title:  "Inaugural meeting"
 date:   2017-10-06 22:00:00 -0700
 author: Ariel Rokem
 ---
