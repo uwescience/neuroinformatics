@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Purpose and objectives</title>
+  <title>{{ page.title }}</title>
   <meta name="description" content="Neuroinformatics is an emerging field of research that comprises the use of modern data-intensive technologies in neuroscience. Its practice requires both br...">
 
   <link rel="stylesheet" href="/neuroinformatics/assets/main.css">
@@ -71,82 +71,23 @@
   </div>
 </header>
 
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Purpose and objectives</h1>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{page.title}}</h1>
     <p class="post-meta">
-      <time datetime="2017-09-07T22:38:56+00:00" itemprop="datePublished">
+<time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}"> {{page.date | date_to_string }}</time>
 
-        Sep 7, 2017
-      </time>
-
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ariel Rokem and Bing Brunton</span></span>
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{page.author}}</span></span>
       </p>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    <p>Neuroinformatics is an emerging field of research that comprises the use of
-modern data-intensive technologies in neuroscience. Its practice requires both
-broad knowledge of neuroscience as well as substantive competency in data
-science. The Neuroinformatics Working Group at the University of Washington (UW)
-eScience Institute and the University of Washington Institute for
-Neuroengineering (UWIN) focuses on neuroinformatics methods and their role in
-understanding the brain.</p>
+<div class="wrapper">
 
-<p>UW has many units and programs devoted to neuroscience, and many researchers
-across campus and in the wider Seattle neuroscience community use data-intensive
-computing technologies. We feel there is tremendous potential for researchers
-across neuroinformatics – with focus on many different model organisms and
-levels of description – to learn from each other, to form new collaborations,
-and to work together to promote reproducible science.  For these reasons, we
-feel the need to create a focal point for neuroinformatics activities at UW.
-This working group will serve as connective tissue in the research community,
-also providing a bridge between the data science activities undertaken at
-eScience and the broader neuroscience community.</p>
+{{content}}
 
-<p>The objectives of the working group are:</p>
-
-<ul>
-  <li>
-    <p>To provide an inclusive forum for discussion on all aspects of neuroinformatics at the UW and the Seattle area.</p>
-  </li>
-  <li>
-    <p>To facilitate deep understanding of neuroinformatics through code reviews, critical reading of published neuroinformatics work, and active reproductions of this work.</p>
-  </li>
-  <li>
-    <p>To help organize seminars, symposia, and hackathons.</p>
-  </li>
-  <li>
-    <p>To develop, harden, and disseminate software for the analysis of data from neuroscience experiments.</p>
-  </li>
-  <li>
-    <p>To foster practices for reproducible and open science among neuroscience researchers.</p>
-  </li>
-</ul>
-
-<p>A successful neuroinformatics community will accelerate the adoption of
-data-intensive technologies in neuroscience research at UW. It will provide
-specific neuroinformatics skills to trainees in existing training programs. It
-will spur new research in neuroinformatics and in neuroscience. Finally, it will
-galvanize a community of practice on campus and in the surrounding region, with
-a specific focus on technical excellence, methodological adventurousness, and an
-open collaborative spirit.</p>
-
-<p>It is our hope to solidify the leadership role that UW has already established
-in neuroscience and data science, serving as an example for other universities
-and research institutions.</p>
-
-  </div>
-
-
-</article>
-
-      </div>
-    </main>
     {% if page.comments %}
     <div id="disqus_thread"></div>
     <script>
@@ -169,12 +110,11 @@ and research institutions.</p>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
     {% endif %}
-    </body>
-    </html>
+
+  </div>
 
     <footer class="site-footer">
 
-  <div class="wrapper">
 
     <h2 class="footer-heading">The UWIN/eScience Working Group in Neuroinformatics</h2>
 
