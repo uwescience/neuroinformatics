@@ -139,7 +139,7 @@ explanation ever would.
 
 #### How to review
 
-1. *Read the code through - first all of it, with focus on the API*
+1. *Read the code through - first all of it, with focus on the API*:
   Read through the code. If you are reviewing a large amount of code, get a
   sense of the intended purpose of the code first, before you dive. Just like in
   a paper review, it is often useful to restate at the beginning of the review
@@ -152,14 +152,14 @@ explanation ever would.
   time for everyone by starting with those, rather than starting with requests
   to fix typos, that eventually get scuttled when the API changes dramatically.
 
-2. *Ask questions*
+2. *Ask questions*:
   Asking questions is almost always a [good
   idea](http://engineering.khanacademy.org/posts/tips-for-code-reviews.htm). You
   want to make sure that you understand the intentions of the code author. Also,
   people like to be listened to, and asking questions is an active form of
   listening.
 
-3. *Read the details: focus on modularity and design*
+3. *Read the details: focus on modularity and design*:
   One of the main contributions you can make as a reviewer is to pull the code
   author **away** from the details, to point out the big picture of the code. It
   is quite usual particularly for scientific code . A different perspective.
@@ -167,14 +167,14 @@ explanation ever would.
   design, to accommodate and enable use-cases that were not on the code author's
   mind when they initially wrote the software.
 
-4. *Read the details - focus on the math*
+4. *Read the details - focus on the math*:
   Scientific software often implements mathematical ideas. If it is called for,
   make sure that you understand the mathematical ideas that are implemented and
   the ways in which the math got transferred to code. From my own experience,
   this is one of the hardest things to do in review, and a common source of
   error (for me!) in writing code.
 
-5. *Read the details - focus on performance*
+5. *Read the details - focus on performance*:
   When going through the code on this pass, take a look at parts of the code
   that look like they might be performance bottle-necks. This is particularly
   easy if the code author has pointed out performance issues and potential
@@ -190,7 +190,7 @@ explanation ever would.
   performance.
 
 6. *Read the details - focus on formatting, typos, comments, documentation and
-overall code clarity*
+overall code clarity*:
   Finally, after all the other concerns have been alleviated, you can dive into
   the nitty gritty: comment about choice of variable names, typos in s
   documentation, and comments, and the format and clarity of the documentation
