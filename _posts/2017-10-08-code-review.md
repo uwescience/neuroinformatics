@@ -139,7 +139,7 @@ explanation ever would.
 
 #### How to review
 
-*Read the code through - first all of it, with focus on the API*
+1. *Read the code through - first all of it, with focus on the API*
 
 Read through the code. If you are reviewing a large amount of code, get a sense
 of the intended purpose of the code first, before you dive. Just like in a
@@ -154,14 +154,14 @@ will require the most dramatic changes in the code, and you can save a lot of
 time for everyone by starting with those, rather than starting with requests
 to fix typos, that eventually get scuttled when the API changes dramatically.
 
-*Ask questions*
+2. *Ask questions*
 
 Asking questions is almost always a [good idea](http://engineering.khanacademy.org/posts/tips-for-code-reviews.htm). You
 want to make sure that you understand the intentions of the code author.
 Also, people like to be listened to, and asking questions is an active form of
 listening.
 
-*Read the details: focus on modularity and design*
+3. *Read the details: focus on modularity and design*
 
 One of the main contributions you can make as a reviewer is to pull the code
 author **away** from the details, to point out the big picture of the code.
@@ -170,13 +170,15 @@ This might entail changes in the modularization of the code, or in its broader
 design, to accommodate and enable use-cases that were not on the code author's
 mind when they initially wrote the software.
 
-*Read the details - focus on the math*
+4. *Read the details - focus on the math*
 
 Scientific software often implements mathematical ideas. If it is called for,
 make sure that you understand the mathematical ideas that are implemented and
-the ways in which the math got transferred to code.
+the ways in which the math got transferred to code. From my own experience,
+this is one of the hardest things to do in review, and a common source of error
+(for me!) in writing code.
 
-*Read the details - focus on performance*
+5. *Read the details - focus on performance*
 
 When going through the code on this pass, take a look at parts of the code that
 look like they might be performance bottle-necks. This is particularly
@@ -190,7 +192,7 @@ up slow performance-critical code (for examples from Python, see [this blog post
 adopting new tools can sometimes be cumbersome. Consider the costs and benefits
 of adopting a new tool when offering advice about how to improve performance.
 
-*Read the details - focus on formatting, typos, comments, documentation and
+6. *Read the details - focus on formatting, typos, comments, documentation and
 overall code clarity*
 
 Finally, after all the other concerns have been alleviated, you can dive into
