@@ -191,17 +191,16 @@ explanation ever would.
 
 6. *Read the details - focus on formatting, typos, comments, documentation and
 overall code clarity*
-
-Finally, after all the other concerns have been alleviated, you can dive into
-the nitty gritty: comment about choice of variable names, typos in s
-documentation, and comments, and the format and clarity of the documentation
-(some of these issues will surface in the first stage, as they pertain to the
-overall clarity of the author's intentions). Though you want to make sure that
-the code is properly formatted, that conventions of the language and the project
-are followed, and there aren't any language errors, be sure to mark comments
-that are minor as such (this idea also comes from this great
-[post](http://engineering.khanacademy.org/posts/tips-for-code-reviews.htm)). It
-allows the author to address them, without stressing about them.
+  Finally, after all the other concerns have been alleviated, you can dive into
+  the nitty gritty: comment about choice of variable names, typos in s
+  documentation, and comments, and the format and clarity of the documentation
+  (some of these issues will surface in the first stage, as they pertain to the
+  overall clarity of the author's intentions). Though you want to make sure that
+  the code is properly formatted, that conventions of the language and the
+  project are followed, and there aren't any language errors, be sure to mark
+  comments that are minor as such (this idea also comes from this great
+  [post](http://engineering.khanacademy.org/posts/tips-for-code-reviews.htm)).
+  It allows the author to address them, without stressing about them.
 
 #### Other things to think about as a reviewer:
 
