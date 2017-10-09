@@ -18,7 +18,7 @@ make errors in writing code for scientific data analysis (a point made very
 eloquently in the quotes mentioned
 [here](http://blog.nipy.org/ubiquity-of-error.html)). Sometimes these errors are
 small, and don't seriously affect the results that you report. But in the
-worse-case scenario, you end up having to [retract three *Science* papers](http://science.sciencemag.org/content/314/5807/1856.long)).
+worse-case scenario, you end up having to [retract three *Science* papers](http://science.sciencemag.org/content/314/5807/1856.long).
 
 Another important role that code review plays in the scientific context is that
 it provides scientists with an opportunity to learn. Many scientists
