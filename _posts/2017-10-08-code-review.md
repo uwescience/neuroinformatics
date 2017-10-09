@@ -140,7 +140,6 @@ explanation ever would.
 #### How to review
 
 1. *Read the code through - first all of it, with focus on the API*
-
   Read through the code. If you are reviewing a large amount of code, get a
   sense of the intended purpose of the code first, before you dive. Just like in
   a paper review, it is often useful to restate at the beginning of the review
