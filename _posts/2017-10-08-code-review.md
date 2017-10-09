@@ -119,7 +119,7 @@ your code for asynchronous review, more than 1,000 lines of code would be really
 hard to review.
 
 Fernando Perez wrote some [useful guidelines](http://fperez.org/py4science/code_reviews.html) for synchronous
-code review ("the lab meeting for code "). For the purposes of our Working
+code review ("the lab meeting for code"). For the purposes of our Working
 Group meetings that include code reviews, we will use a protocol that is
 similar to that outlined there. In particular:
 
