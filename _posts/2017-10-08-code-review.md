@@ -77,7 +77,7 @@ personal, and surprisingly acrimonious fast. The kinds of misunderstandings that
 can lead code review in this direction are easier to avoid in face-to-face
 communication.
 
-### Asynchronous code review
+#### Asynchronous code review
 
 Code is submitted for review, by email or via some other automated system, and
 reviewers read it at their leisure, providing feedback in their own time-line.
