@@ -6,7 +6,7 @@ date:   2017-10-08 07:30:00 -0700
 author: Ariel Rokem
 ---
 
-# How to do a scientific code review
+# How to practice scientific code review
 
 Code review is an important aspect of modern software development practice, but
 there are very few resources available for scientists to learn how to do code
