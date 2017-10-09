@@ -55,7 +55,7 @@ The case that I mostly have in mind here is the review of code by colleagues
 and collaborators on research projects, similar to the review of manuscripts,
 results and presentations that are common in research groups that I have been
 part of. While I don't think that this is a common practice yet, I see no
-reason that it would become more common. Maybe the guidelines below will help.
+reason why it can't become more common. Maybe the guidelines below will help.
 
 ## Methodology
 
