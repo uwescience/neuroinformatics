@@ -141,56 +141,54 @@ explanation ever would.
 
 1. *Read the code through - first all of it, with focus on the API*
 
-Read through the code. If you are reviewing a large amount of code, get a sense
-of the intended purpose of the code first, before you dive. Just like in a
-paper review, it is often useful to restate at the beginning of the review what
-you think the author intended to do in this work in a few sentences. This sets
-the stage for the review of the details.
-
-Reading the tests or documentation can give you a good sense of the intended
-use-cases, and the API (application programming interface). This is often a
-good place to start, because comments about the API are often the ones that
-will require the most dramatic changes in the code, and you can save a lot of
-time for everyone by starting with those, rather than starting with requests
-to fix typos, that eventually get scuttled when the API changes dramatically.
+  Read through the code. If you are reviewing a large amount of code, get a
+  sense of the intended purpose of the code first, before you dive. Just like in
+  a paper review, it is often useful to restate at the beginning of the review
+  what you think the author intended to do in this work in a few sentences. This
+  sets the stage for the review of the details.
+  Reading the tests or documentation can give you a good sense of the intended
+  use-cases, and the API (application programming interface). This is often a
+  good place to start, because comments about the API are often the ones that
+  will require the most dramatic changes in the code, and you can save a lot of
+  time for everyone by starting with those, rather than starting with requests
+  to fix typos, that eventually get scuttled when the API changes dramatically.
 
 2. *Ask questions*
-
-Asking questions is almost always a [good idea](http://engineering.khanacademy.org/posts/tips-for-code-reviews.htm). You
-want to make sure that you understand the intentions of the code author.
-Also, people like to be listened to, and asking questions is an active form of
-listening.
+  Asking questions is almost always a [good
+  idea](http://engineering.khanacademy.org/posts/tips-for-code-reviews.htm). You
+  want to make sure that you understand the intentions of the code author. Also,
+  people like to be listened to, and asking questions is an active form of
+  listening.
 
 3. *Read the details: focus on modularity and design*
-
-One of the main contributions you can make as a reviewer is to pull the code
-author **away** from the details, to point out the big picture of the code.
-It is quite usual particularly for scientific code . A different perspective.
-This might entail changes in the modularization of the code, or in its broader
-design, to accommodate and enable use-cases that were not on the code author's
-mind when they initially wrote the software.
+  One of the main contributions you can make as a reviewer is to pull the code
+  author **away** from the details, to point out the big picture of the code. It
+  is quite usual particularly for scientific code . A different perspective.
+  This might entail changes in the modularization of the code, or in its broader
+  design, to accommodate and enable use-cases that were not on the code author's
+  mind when they initially wrote the software.
 
 4. *Read the details - focus on the math*
-
-Scientific software often implements mathematical ideas. If it is called for,
-make sure that you understand the mathematical ideas that are implemented and
-the ways in which the math got transferred to code. From my own experience,
-this is one of the hardest things to do in review, and a common source of error
-(for me!) in writing code.
+  Scientific software often implements mathematical ideas. If it is called for,
+  make sure that you understand the mathematical ideas that are implemented and
+  the ways in which the math got transferred to code. From my own experience,
+  this is one of the hardest things to do in review, and a common source of
+  error (for me!) in writing code.
 
 5. *Read the details - focus on performance*
-
-When going through the code on this pass, take a look at parts of the code that
-look like they might be performance bottle-necks. This is particularly
-easy if the code author has pointed out performance issues and potential
-bottle-necks. Consider what could be done to relieve these bottle-necks: has
-the code author taken advantage of all the tools at their disposal? For
-example, many software languages used in scientific computing provide
-substantial advantages for vectorization of mathematical operations that are
-repeated over large arrays. Languages may have specialized tools for speeding
-up slow performance-critical code (for examples from Python, see [this blog post](http://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/)). But
-adopting new tools can sometimes be cumbersome. Consider the costs and benefits
-of adopting a new tool when offering advice about how to improve performance.
+  When going through the code on this pass, take a look at parts of the code
+  that look like they might be performance bottle-necks. This is particularly
+  easy if the code author has pointed out performance issues and potential
+  bottle-necks. Consider what could be done to relieve these bottle-necks: has
+  the code author taken advantage of all the tools at their disposal? For
+  example, many software languages used in scientific computing provide
+  substantial advantages for vectorization of mathematical operations that are
+  repeated over large arrays. Languages may have specialized tools for speeding
+  up slow performance-critical code (for examples from Python, see [this blog
+  post](http://jakevdp.github.io/blog/2013/06/15/numba-vs-cython-take-2/)). But
+  adopting new tools can sometimes be cumbersome. Consider the costs and
+  benefits of adopting a new tool when offering advice about how to improve
+  performance.
 
 6. *Read the details - focus on formatting, typos, comments, documentation and
 overall code clarity*
