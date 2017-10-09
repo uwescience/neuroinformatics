@@ -221,6 +221,9 @@ did things that you consider to be grave mistakes. This can be particularly
 hard to remember when conducting asynchronous code review, and particularly
 when reviewing a new code contribution to a project that you care a lot about.
 Needless to say that this will pay off in good karma. It might also pay off in
-returning contributors. Part of the charm of open-source software development
-is that today's anonymous contributors is tomorrow's trusted collaborator. And
+returning contributors -- this is more pertinent to the open-source software
+project case -- that is not the main topic above. Nevertheless, it is worth
+mentioning towards the end, and the rule applies broadly: part of the charm of
+open-source software development, and many other kinds of collaboration, is
+that today's anonymous contributors is tomorrow's trusted collaborator. And
 there is no cost associated with being kind. So do it.
