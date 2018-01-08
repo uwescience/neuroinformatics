@@ -12,4 +12,6 @@ science. The neuroinformatics working group at the University of Washington (UW)
 Washington [Institute for Neuroengineering (UWIN)](http://uwin.washington.edu/)
 focuses on neuroinformatics methods and their role in understanding the brain.
 
-During the Fall quarter 2017, we will meet every other week on Thursday (starting October 5th) at 3 PM in [Kincaid](https://www.washington.edu/maps/#!/kin) room 356 (the UWIN conference room).  
+During the Winter quarter 2018, we will meet every other week on Monday (starting January 8th) at 11 AM in [Kincaid](https://www.washington.edu/maps/#!/kin) room 356 (the UWIN conference room).  
+
+To join the group, and receive information about the meetings, please sign up to the [mailing list](https://mailman12.u.washington.edu/mailman/listinfo/neuroinformatics).
