@@ -1,7 +1,7 @@
 ---
 title:  "Information theory in MEG: Physics Foundations for Source Space Encoding"
 author:
-date:   2018-10-16
+date:   2018-10-30
 ---
 
 Zachary Bednarke presented his work.
